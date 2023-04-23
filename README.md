@@ -3,6 +3,24 @@
 Nynke Oosterhof – July 2022
 
 
+
+
+
+**REFERENCES**
+
+
+Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). Cellpose: a generalist algorithm for cellular segmentation. Nature methods, 18(1), 100-106. [bibtex]
+
+Pachitariu, M. & Stringer, C. (2022). Cellpose 2.0: how to train your own model. Nature methods.
+
+napari contributors (2019). napari: a multi-dimensional image viewer for python.
+
+
+
+
+
+
+
 **Introduction**
 
 Counting cells, especially in 3D closely packed tissue structures, can be particularly challenging. The most straightforward way would be to count cell nuclei, which are clearly recognizable by eye and for which in most cases only one is present per cell. However, in image of closely packed 3D structures, nuclei are often (almost) touching their neighbors, display differences in pixel intensities and are not always distinguishable from the background in the deeper images slices. The combination of these factors makes it almost impossible to reliably count cells in 3D images of closely packed cells using standard thresholding techniques. In the last few years several machine learning algorithms (e.g. StarDist and Cellpose) have made it possible to properly segment nuclei in 3D images, which means it can also be used for analyzing cell numbers in for example the developing zebrafish brain.
