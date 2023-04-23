@@ -3,11 +3,15 @@
 Nynke Oosterhof – July 2022
 
 **REFERENCES**
+
+
 Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). Cellpose: a generalist algorithm for cellular segmentation. Nature methods, 18(1), 100-106. [bibtex]
 
 Pachitariu, M. & Stringer, C. (2022). Cellpose 2.0: how to train your own model. Nature methods.
 
 napari contributors (2019). napari: a multi-dimensional image viewer for python.
+
+
 
 **Introduction**
 
