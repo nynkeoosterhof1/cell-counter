@@ -81,7 +81,7 @@ data_preprocessor.trim_images()
 
 #################### Count cells #################################
 
-counter = DataCellCounter(RAW_DATA_FOLDER, 'labelmaps_2D', 'labelmaps_3D', 'labelmasks_tel', 'labelmasks_neur')
+counter = DataCellCounter(RAW_DATA_FOLDER, NAME_FOLDER_2D_LABELMAPS, NAME_FOLDER_3D_LABELMAPS, NAME_FOLDER_MASKS_TELENCEPHALON, NAME_FOLDER_MASKS_NEURONS)
 counter.analyze_data()
 
 
