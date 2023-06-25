@@ -10,9 +10,6 @@ import pandas as pd
 import json
 
 
-# PATH = 'C:/Users/Paridaen/Documents/Nynke/data/testfolder/24hpf/'
-
-
 class SampleCellCounter(FileManager):
 
     def __init__(self, path_folder, labelmaps_2D, labelmaps_3D, labelmasks_tel, labelmasks_neur, threshold_ratio=0.8, threshold_size=300):
