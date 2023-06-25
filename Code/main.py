@@ -8,10 +8,7 @@ import numpy as np
 
 ###############  Unpacking of Images  ###########################
 
-
-# RAW_DATA_FOLDER = 'C:/Users/Paridaen/Documents/Nynke/data/20190407_staging/'
-# TESTFOLDER = 'C:/Users/Paridaen/Documents/Nynke/data/testfolder/'
-RAW_DATA_FOLDER = 'C:/Users/Paridaen/Documents/Nynke/data/staging_data_gloria/'
+RAW_DATA_FOLDER = 'ADD PATH'
 
 ##############  Image preprocessing  ############################
 
