@@ -84,7 +84,7 @@ class SamplePreprocessor(FileManager):
 
 
     def get_common_files_in_subfolders(self):
-        """?"""
+        """Return list of files (file names) present in all subfolders."""
         file_lists = []
         for subfolder in self.subfolders:
             file_lists.append(os.listdir(subfolder))
@@ -118,6 +118,7 @@ class SamplePreprocessor(FileManager):
 
     
     def retrieve_slice_info(self):
+        """Return """
         return self.txt_to_dictionary()
 
 
