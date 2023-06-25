@@ -110,8 +110,6 @@ class SampleCellCounter(FileManager):
         self.save_results()
 
 
-# tester = SampleCellCounter(PATH, 'labelmaps_2D', 'labelmaps_3D', 'labelmasks_tel', 'labelmasks_neur')
-# tester.analyze_sample()
 
 
 
