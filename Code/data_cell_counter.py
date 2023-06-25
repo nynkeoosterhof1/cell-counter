@@ -4,7 +4,6 @@ from file_manager import FileManager
 import json
 import pandas as pd
 
-PATH = 'C:/Users/Paridaen/Documents/Nynke/data/20220120_staging_nestin_HuC_DAPI/'
 
 class DataCellCounter(FileManager):
 
@@ -43,10 +42,6 @@ class DataCellCounter(FileManager):
         
         df = pd.DataFrame(self.results).T
         df.to_excel(self.folder + 'results.xlsx')
-
-
-# tester = DataCellCounter(PATH, 'labelmaps_2D', 'labelmaps_3D', 'labelmasks_tel', 'labelmasks_neur')
-# tester.analyze_data()
 
 
 
