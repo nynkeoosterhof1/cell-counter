@@ -9,17 +9,6 @@ import glob
 import os
 
 
-# PATH_LABELMAP_2D = 'F:/Microscopy/Zeiss780/20210803_staging_GBS/ImagesForQuantification/Nuclei/2D_labelmaps/22hpf_fish3_nuclei_z1-30_2DMask.tif'
-# PATH_LABELMAP_3D = 'F:/Microscopy/Zeiss780/20210803_staging_GBS/ImagesForQuantification/Nuclei/3D_labelmaps/22hpf_fish3_nuclei_z1-30_3DMask.tif'
-# PATH_LABELMASK_TEL = 'F:/Microscopy/Zeiss780/20210803_staging_GBS/ImagesForQuantification/Neurons/masks_telencephalon/22hpf_fish3_tel_z1-30.tif'
-# PATH_LABELMASK_NEUR = 'F:/Microscopy/Zeiss780/20210803_staging_GBS/ImagesForQuantification/Neurons/Masks_neurons/22hpf_fish3_neurons_z1-30.tif'
-
-# labelmap_2D = img_as_uint(imread(PATH_LABELMAP_2D))
-# labelmap_3D = img_as_uint(imread(PATH_LABELMAP_3D))
-# labelmask_tel = imread(PATH_LABELMASK_TEL)
-# labelmask_neur = imread(PATH_LABELMASK_NEUR)
-
-
 class CellCounter(FileManager):
 
     def __init__(self, path_folder, image_name, labelmap_2D, labelmap_3D, mask_tel, mask_cell, threshold_ratio = 0.8, threshold_size = 300):
@@ -121,9 +110,7 @@ class CellCounter(FileManager):
         self.result['percentage_progenitors'] = (self.result['progenitor_count'] / self.result['total_count']) * 100
         return self.result
 
-    
-# counter = CellCounter(labelmap_2D=labelmap_2D, labelmap_3D=labelmap_3D, mask_tel=labelmask_tel, mask_cell=labelmask_neur)
-# counter.get_results()
+
 
     
 
